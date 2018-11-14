@@ -5,3 +5,11 @@ div {
   margin: 20px;
 }
 
+@media screen and (min-width: 800px) {
+  /* code to run when screen and min-width is 800px/these conditions are met: */
+  /* height, width, margin, and float stay the same */
+  div {
+    border: 5px dashed blue;
+
+  }
+}
